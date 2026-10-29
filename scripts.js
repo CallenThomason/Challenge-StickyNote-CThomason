@@ -64,6 +64,8 @@ const charCount = document.getElementById("char-count");
 
       localStorage.removeItem("sticky-color");
       note.className = "yellow"; 
+
+      charCount.textContent = note.value.length + " characters"; 
      
     })
 
